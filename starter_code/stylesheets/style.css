@@ -8,3 +8,396 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+body {
+    background-color: #540B51;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+#icons img {
+    max-width: 100%;
+}
+
+
+nav {
+    display: flex;
+    padding: 15px;
+}
+
+nav #icons {
+    margin-left: auto;
+}
+
+nav #icons button {
+    background-color: transparent;
+    border: 0;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 2.4em;
+
+}
+
+#menubody {
+    display: none;
+}
+
+#logo {
+    width: 96px;
+
+
+}
+
+#slogan {
+    color: white;
+    text-align: center;
+    font-weight: 500;
+
+}
+
+#slogan span {
+    color: #ECB12F;
+    font-weight: 500;
+}
+
+#email {
+    padding: 1%;
+
+}
+
+#btemail {
+    width: 100%;
+    padding: 13px;
+    border-radius: 12px;
+    font-size: 15px;
+    color: #540B51;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    border: 0.5rem solid;
+}
+
+#emailgoogle {
+    width: 100%;
+}
+
+
+#google {
+    border: 0.5rem solid #540B51;
+    width: 100%;
+    display: flex;
+    border-radius: 12px;
+    background-color: #4285F4;
+    padding-right: 43px;
+
+}
+
+#google img {
+    margin-top: 3px;
+    width: 8%;
+    background-color: white;
+    padding: 9px;
+
+
+}
+
+#google span {
+    font-size: 15px;
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+#hero-product-ui img {
+    width: 150%;
+}
+
+/* ****************************************** */
+main {
+    background-color: #F3EAE2;
+}
+
+#trusted p {
+    padding-top: 26px;
+    font-weight: 800;
+}
+
+#logo-trusted {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+#lt1 {
+    display: block;
+    width: 28%;
+    height: 32px;
+    padding: 8px;
+
+}
+
+#lt2 {
+    display: block;
+    width: 18%;
+
+}
+
+#lt3 {
+    display: block;
+    width: 20%;
+    height: 23px;
+    padding: 12px;
+
+}
+
+#lt4 {
+    display: block;
+    width: 14%;
+    height: fit-content
+}
+
+#lt5 {
+    display: block;
+    width: 52%;
+
+}
+
+#lt6 {
+    display: block;
+    width: 34%;
+
+}
+
+#connectedness-mobile img {
+    width: 95%;
+    margin-top: 76px;
+}
+
+/* ****************************** */
+#bring {
+    margin-top: 35px;
+    margin-left: 17px;
+
+}
+
+#bringtext {
+    font-weight: 700;
+    margin-left: 17px;
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+#choose {
+    margin-left: 17px;
+    margin-top: 39;
+}
+
+#inslack {
+    font-weight: 700;
+    margin-left: 17px;
+    margin-right: 48px;
+    font-size: 14px;
+}
+
+#flexibility-mobile {
+    width: 95%;
+    margin-top: 100px;
+    margin-left: 14px;
+}
+
+#speed-mobile {
+    width: 95%;
+    margin-top: 100px;
+
+}
+
+#withyourorther {
+    font-weight: 700;
+    margin-left: 17px;
+    margin-right: 22px;
+    font-size: 14px;
+
+}
+
+/* ********************************* */
+
+#menufooter {
+    background-color: white;
+}
+
+#menufooter h3 {
+    font-size: 29px;
+    text-align: center;
+    padding-top: 38px;
+}
+
+#slacksecuely {
+    text-align: center;
+    font-weight: 520;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+#boutonmenufooter {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    padding: 10px;
+}
+
+#bouton1 {
+    background-color: #540B51;
+    color: white;
+    padding: 14px;
+    margin-bottom: 7px;
+    font-size: 13px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+#bouton2 {
+    color: #540B51;
+    border-color: #540B51;
+    padding: 14px;
+    margin-top: 7px;
+    font-size: 13px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+
+#pourcentage span {
+    font-size: 40px;
+    font-weight: 600;
+    color: #540B51;
+}
+
+#pourcentage {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+}
+
+#pourcentage li p {
+    font-size: 13px;
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-left: 90px;
+    padding-right: 90px;
+    margin-bottom: 0px
+}
+
+#welcomedigital {
+    background-color: #540B51;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+
+}
+
+#welcomedigital h3 {
+    font-size: 29px;
+    text-align: center;
+    padding-top: 38px;
+    color: white;
+    display: flex;
+    ;
+}
+
+
+#bouton1w {
+    background-color: white;
+    color: #540B51;
+    padding: 14px;
+    margin-bottom: 7px;
+    font-size: 13px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#bouton2w {
+    color: white;
+    border-color: white;
+    background-color: #540B51;
+    padding: 14px;
+    margin-top: 7px;
+    font-size: 13px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#footer {
+    background-color: white;
+}
+
+#logofooterslack {
+    width: 14%;
+    margin-top: 36px;
+    margin-left: 18px;
+}
+
+#menufooter1 {
+    display: flex;
+    margin-bottom: 19px;
+}
+
+#menufooter1 ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    margin-top: 50px;
+    font-size: 12px;
+}
+
+#lititre {
+    font-size: 12px;
+    font-weight: 800;
+}
+
+#menufooter1 li {
+    padding: 10px;
+    padding: 10px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+hr {
+    color: #454245;
+    margin-left: 19px;
+    margin-right: 19px;
+}
+
+#menufooter2 {
+    margin-top: 29px;
+    line-height: 2.8;
+
+}
+
+#menufooter2 ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    padding-right: 18px;
+}
+
+#footericonsclass {
+    display: flex;
+    justify-content: space-between;
+}
+
+#copy {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 13px;
+}
